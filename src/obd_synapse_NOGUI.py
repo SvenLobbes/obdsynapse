@@ -1,6 +1,9 @@
-# OBD Synapse without graphical user interface
+import sys
+import os
 
-from config.libs import * #import librarys
+
+from config.libs import *
+
 from display.terminalUI import *
 from validateConnection import *
 from commands.dataQuery import *
